@@ -9,11 +9,11 @@ I have set up the code to use a locally served model when the ENV variable is no
 
 ## Files
 
-`.env` - Configuration
-`build_vectorstore.py` - Create the initial vectorstore. This data pipeline is very simple, it creates a local vectorestore by ingesting the text data in a folder and generating embeddings from it.
-`integration.py` - the integration test, a full run through of a chat. Can add further chat messages as needed.
-`chatbot/__init__.py` - core chatbot logic
-`chatbot/model.py` - langchain chain logic
+- `.env` - Configuration
+- `build_vectorstore.py` - Create the initial vectorstore. This data pipeline is very simple, it creates a local vectorestore by ingesting the text data in a folder and generating embeddings from it.
+- `integration.py` - the integration test, a full run through of a chat. Can add further chat messages as needed.
+- `chatbot/__init__.py` - core chatbot logic
+- `chatbot/model.py` - langchain chain logic
 
 
 ## Testing - How
